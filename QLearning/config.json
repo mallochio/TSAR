@@ -1,0 +1,33 @@
+{
+    "language"        : "PYTHON",
+    "main-file"       : "discretize.py",
+    "experiment-name" : "Qlearning",
+    "likelihood"      : "GAUSSIAN",
+    "variables" : {
+        "alpha" : {
+            "type" : "FLOAT",
+            "size" : 1,
+            "min"  : 0,
+            "max"  : 0.99
+        },
+        "gamma" : {
+            "type" : "FLOAT",
+            "size" : 1,
+            "min"  : 0.5,
+            "max"  : 0.99
+        },
+	"epsilon" : {
+            "type" : "FLOAT",
+            "size" : 1,
+            "min"  : 0.5,
+            "max"  : 0.99
+        },
+	"decay_rate" : {
+            "type" : "FLOAT",
+            "size" : 1,
+            "min"  : 0.9,
+            "max"  : 0.99
+        }
+    }
+}
+
